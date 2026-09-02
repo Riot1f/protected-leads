@@ -135,5 +135,5 @@ three unclaimed controls destroyed).
 
 ## License
 
-Source-visible, not open source. Read it, build it for your own use — but don't
-redistribute or reupload it. See [LICENSE](LICENSE).
+MIT — see [LICENSE](LICENSE). Use it, fork it, learn from it. If you ship
+something built on it, a link back is appreciated but not required.
