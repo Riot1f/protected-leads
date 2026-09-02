@@ -1,0 +1,143 @@
+Picked up JAVA_TOOL_OPTIONS: -Djavax.net.ssl.trustStore=/root/.ccr/java-truststore.p12 -Djavax.net.ssl.trustStorePassword=changeit -Djavax.net.ssl.trustStoreType=PKCS12 -Dhttps.proxyHost=127.0.0.1 -Dhttps.proxyPort=34041 -Dhttp.nonProxyHosts=localhost|127.0.0.1|::1|127.*|0.*|::|169.254.*|api.anthropic.com|api-staging.anthropic.com|api-pr-preview.anthropic.com|mcp-proxy.anthropic.com|mcp-proxy-staging.anthropic.com|registry.npmjs.org|jsr.io|npm.jsr.io|pypi.org|files.pythonhosted.org|index.crates.io|proxy.golang.org|host.docker.internal|10.*|172.16.*|172.17.*|172.18.*|172.19.*|172.20.*|172.21.*|172.22.*|172.23.*|172.24.*|172.25.*|172.26.*|172.27.*|172.28.*|172.29.*|172.30.*|172.31.*|192.168.*|100.64.0.0/10|*.svc.cluster.local|*.svc.cluster.local -Djdk.http.auth.tunneling.disabledSchemes= -Djdk.http.auth.proxying.disabledSchemes=
+[00:46:35] [main/INFO]: Loading Minecraft 26.2 with Fabric Loader 0.19.3
+[00:46:35] [main/INFO]: Mappings not present!
+[00:46:35] [main/INFO]: Loading 43 mods:
+	- fabric-api 0.158.0+26.2
+	   |-- fabric-api-base 2.0.4+ece063239e
+	   |-- fabric-api-lookup-api-v1 2.0.17+11e1c9a39e
+	   |-- fabric-biome-api-v1 18.0.6+c7bd5b8e9e
+	   |-- fabric-block-api-v1 3.0.3+ec56b6019e
+	   |-- fabric-block-getter-api-v2 2.0.7+ec56b6019e
+	   |-- fabric-command-api-v2 3.1.0+00cb03469e
+	   |-- fabric-content-registries-v0 11.3.1+37b1aa249e
+	   |-- fabric-convention-tags-v2 4.7.0+1f023a9e9e
+	   |-- fabric-crash-report-info-v1 1.0.5+086d547a9e
+	   |-- fabric-creative-tab-api-v1 5.0.14+d871b99e9e
+	   |-- fabric-data-attachment-api-v1 2.2.18+515ac5339e
+	   |-- fabric-data-generation-api-v1 25.5.0+aed122aa9e
+	   |-- fabric-debug-api-v1 1.0.2+c792624d9e
+	   |-- fabric-dimensions-v1 5.1.11+515ac5339e
+	   |-- fabric-entity-events-v1 5.0.5+06488ac19e
+	   |-- fabric-events-interaction-v0 5.2.7+515ac5339e
+	   |-- fabric-game-rule-api-v1 4.0.8+46a6d00c9e
+	   |-- fabric-item-api-v1 14.5.0+c68f6cbe9e
+	   |-- fabric-key-mapping-api-v1 2.0.5+e2bdee789e
+	   |-- fabric-lifecycle-events-v1 4.1.3+4575b05f9e
+	   |-- fabric-loot-api-v3 3.0.17+06488ac19e
+	   |-- fabric-menu-api-v1 2.0.16+086d547a9e
+	   |-- fabric-message-api-v1 7.0.8+bb2ed3f79e
+	   |-- fabric-model-loading-api-v1 8.0.16+c80601bb9e
+	   |-- fabric-networking-api-v1 6.3.3+72073ef09e
+	   |-- fabric-object-builder-api-v1 24.1.0+6fcd5f039e
+	   |-- fabric-particles-v1 5.0.18+d1756aa99e
+	   |-- fabric-permission-api-v1 1.0.5+e442d8d09e
+	   |-- fabric-recipe-api-v1 9.0.20+11e1c9a39e
+	   |-- fabric-registry-sync-v0 7.1.0+c7bd5b8e9e
+	   |-- fabric-renderer-api-v1 14.1.3+2b0d8a229e
+	   |-- fabric-renderer-indigo 9.1.3+2b0d8a229e
+	   |-- fabric-rendering-fluids-v1 6.0.4+06488ac19e
+	   |-- fabric-rendering-v1 25.3.2+515ac5339e
+	   |-- fabric-resource-conditions-api-v1 6.1.0+10e9a28b9e
+	   |-- fabric-resource-loader-v0 3.3.20+4fc5413f9e
+	   |-- fabric-resource-loader-v1 2.0.13+9edec1269e
+	   |-- fabric-screen-api-v1 5.2.0+58e078ad9e
+	   |-- fabric-serialization-api-v1 2.0.4+11a26f319e
+	   |-- fabric-sound-api-v1 2.0.5+11a26f319e
+	   |-- fabric-tag-api-v1 2.1.4+515ac5339e
+	   |-- fabric-transfer-api-v1 8.0.12+11dbb7d79e
+	   \-- fabric-transitive-access-wideners-v1 8.1.4+67c847259e
+	- fabricloader 0.19.3
+	   \-- mixinextras 0.5.4
+	- java 25
+	- minecraft 26.2
+	- pltest 1.0.0
+	- protectedleads 1.1.0+mc26.2
+[00:46:36] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/root/pl/libs/sponge-mixin-0.17.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[00:46:36] [main/INFO]: Compatibility level set to JAVA_25
+[00:46:37] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.4).
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by com.sun.jna.Native in an unnamed module (file:/root/pl/libs/jna-5.17.0.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.joml.MemUtil$MemUtilUnsafe (file:/root/pl/libs/joml-1.10.8.jar)
+WARNING: Please consider reporting this to the maintainers of class org.joml.MemUtil$MemUtilUnsafe
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+[00:46:44] [main/INFO]: Protected Leads ready
+[00:46:44] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[00:46:45] [Yggdrasil Key Fetcher/ERROR]: Failed to request yggdrasil public key
+com.mojang.authlib.exceptions.MinecraftClientException: Failed to read value Host not in allowlist: api.minecraftservices.com. Add this host to your network egress settings to allow access.
+	at knot//com.mojang.authlib.minecraft.client.ObjectMapper.readValue(ObjectMapper.java:31)
+	at knot//com.mojang.authlib.minecraft.client.MinecraftClient.buildHttpException(MinecraftClient.java:169)
+	at knot//com.mojang.authlib.minecraft.client.MinecraftClient.readServiceResponse(MinecraftClient.java:147)
+	at knot//com.mojang.authlib.minecraft.client.MinecraftClient.getWithEtag(MinecraftClient.java:81)
+	at knot//com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:65)
+	at knot//com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:114)
+	at knot//com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo$1.run(YggdrasilServicesKeyInfo.java:89)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+See https://github.com/google/gson/blob/main/Troubleshooting.md#unexpected-json-structure
+	at knot//com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:521)
+	at knot//com.google.gson.Gson.fromJson(Gson.java:1080)
+	at knot//com.google.gson.Gson.fromJson(Gson.java:981)
+	at knot//com.google.gson.Gson.fromJson(Gson.java:891)
+	at knot//com.google.gson.Gson.fromJson(Gson.java:828)
+	at knot//com.mojang.authlib.minecraft.client.ObjectMapper.readValue(ObjectMapper.java:29)
+	... 12 more
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+See https://github.com/google/gson/blob/main/Troubleshooting.md#unexpected-json-structure
+	at knot//com.google.gson.stream.JsonReader.unexpectedTokenError(JsonReader.java:1831)
+	at knot//com.google.gson.stream.JsonReader.beginObject(JsonReader.java:507)
+	at knot//com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:510)
+	... 17 more
+[00:46:47] [main/INFO]: Loaded 1585 recipes
+[00:46:47] [main/INFO]: Loaded 1688 advancements
+[00:46:47] [main/INFO]: Applied 0 biome modifications to 0 of 66 new biomes in 1.496 ms
+[00:46:47] [Server thread/INFO]: Starting minecraft server version 26.2
+[00:46:47] [Server thread/INFO]: Loading properties
+[00:46:47] [Server thread/INFO]: Default game type: SURVIVAL
+[00:46:47] [Server thread/INFO]: Generating keypair
+[00:46:47] [Server thread/INFO]: Starting Minecraft server on *:25599
+[00:46:47] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:46:47] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:46:47] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:46:47] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:46:47] [Server thread/INFO]: Preparing level "world"
+[00:46:48] [Server thread/INFO]: Loading 64 persistent chunks...
+[00:46:48] [Server thread/INFO]: Preparing spawn area: 13%
+[00:46:48] [Server thread/INFO]: Time elapsed: 335 ms
+[00:46:48] [Server thread/INFO]: Done (0.655s)! For help, type "help"
+[00:46:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:46:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[00:46:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[00:46:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:46:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:46:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:46:48] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:46:48] [Server thread/INFO]: [STDOUT]: PLTEST: AFTER RESTART owner=11111111-2222-3333-4444-555555555555 protected=true
+[00:46:48] [Server thread/INFO]: [STDOUT]: PLTEST: all mixin target classes loaded OK
+[00:46:49] [Server thread/INFO]: [STDOUT]: PLTEST: explosion: placed 4 fences, claimed=BlockPos{x=100, y=70, z=100}
+[00:46:49] [Server thread/INFO]: [STDOUT]: PLTEST: explosion: claimed  survived=true
+[00:46:49] [Server thread/INFO]: [STDOUT]: PLTEST: explosion: control1 survived=false
+[00:46:49] [Server thread/INFO]: [STDOUT]: PLTEST: explosion: control2 survived=false
+[00:46:49] [Server thread/INFO]: [STDOUT]: PLTEST: explosion: control3 survived=false
+[00:46:49] [Server thread/INFO]: [STDOUT]: PLTEST: destroyBlock: claimed returned=false stillThere=true
+[00:46:49] [Server thread/INFO]: [STDOUT]: PLTEST: destroyBlock: control returned=true stillThere=false
+[00:47:48] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[00:48:00] [Server thread/INFO]: Stopping the server
+[00:48:00] [Server thread/INFO]: Stopping server
+[00:48:00] [Server thread/INFO]: Saving players
+[00:48:00] [Server thread/INFO]: Saving worlds
+[00:48:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:48:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[00:48:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[00:48:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:48:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:48:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:48:00] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

@@ -1,0 +1,28 @@
+# build output
+build/
+out/
+libs/
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# gradle
+.gradle/
+!gradle/wrapper/
+
+# ide
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+bin/
+
+# os
+.DS_Store
+Thumbs.db
+
+# local offline build classpath (see BUILD_NOTES.md)
+cp/
