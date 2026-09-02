@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "com.r1ftstudios.protectedleads.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BlockAttachedEntityMixin",
+    "FireBlockMixin",
+    "LeadItemMixin",
+    "LevelMixin",
+    "PistonStructureResolverMixin",
+    "ServerExplosionMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "protectedleads",
+  "version": "1.1.0+mc26.2",
+  "name": "Protected Leads",
+  "description": "Whoever ties the first lead to a block owns that block and its leash knot. Nobody else can detach the animal, remove the knot, break, burn or blow up the block. Ownership is stored per dimension in the world save and survives restarts, chunk unloads and the owner being offline.",
+  "authors": ["R1ft Studios"],
+  "license": "ARR",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.r1ftstudios.protectedleads.ProtectedLeads"]
+  },
+  "mixins": ["protectedleads.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
